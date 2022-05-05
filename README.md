@@ -1,5 +1,5 @@
 # Fucking template 
 
 
-Usar - git clone (Url Template)
+Usar - git clone https://github.com/noirDesign/template1.git
 
