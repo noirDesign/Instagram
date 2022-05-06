@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-	<Nav />
+	<Nav class="z-20" />
 	<router-view />
 </template>
 
@@ -18,7 +18,6 @@ export default {
 
 * {
 	font-family: inter;
-	line-height: 14px;
 }
 
 body {
