@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Card from '@/src/components/Card.vue';
+import Card from '../components/Card.vue';
 import { useStore } from 'vuex';
 import { onMounted } from 'vue';
 import { computed } from '@vue/reactivity';

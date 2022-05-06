@@ -18,7 +18,6 @@ export default {
 
 * {
 	font-family: inter;
-	line-height: 14px;
 }
 
 body {
