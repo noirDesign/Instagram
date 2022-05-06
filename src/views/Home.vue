@@ -11,9 +11,11 @@
 
 <script>
 import Card from '../components/Card.vue';
+
 import Uphome from '../components/Uphome.vue';
 import Story from '../components/Story.vue';
 import UserStory from '../components/UserStory.vue';
+
 import { useStore } from 'vuex';
 import { onMounted } from 'vue';
 import { computed } from '@vue/reactivity';
