@@ -54,6 +54,17 @@ h4 {
 	color: #838383;
 }
 
+.show {
+	animation: show ease-in-out 0.3s;
+}
+
+@keyframes show {
+	0% {
+		transform: scale(0.8);
+		opacity: 0;
+	}
+}
+
 @media (max-width: 400px) {
 	#app {
 		width: 100%;

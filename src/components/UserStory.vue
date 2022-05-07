@@ -1,6 +1,6 @@
 <template>
 	<section
-		class="hover:bg-primary rounded-22 flex flex-col items-center p-5 mx-5 text-center"
+		class="hover:bg-primary rounded-22 flex flex-col items-center p-5 mx-5 text-center cursor-pointer"
 	>
 		<div class="w-55 rounded-25 p-2 flex">
 			<img

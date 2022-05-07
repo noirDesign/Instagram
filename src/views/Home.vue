@@ -1,10 +1,10 @@
 <template>
 	<Uphome class="z-20" />
-	<section class="flex-row flex mt-8 mb-15 overflow-x-scroll px-8">
+	<section class="flex-row flex mt-8 mb-15 overflow-x-scroll px-8 show">
 		<UserStory />
 		<Story v-for="item of items" :key="item.id" :item="item" />
 	</section>
-	<section class="mx-15">
+	<section class="mx-15 show">
 		<Card v-for="item of items" :key="item.id" :item="item" />
 	</section>
 </template>

@@ -8,10 +8,18 @@
     }
 
     .up {
-        @apply bg-trans flex p-10 items-center sticky top-0 rounded-bl-20 rounded-br-20 backdrop-blur-xl;
+        @apply bg-trans flex p-10 items-center sticky top-0 rounded-bl-20 rounded-br-20;
     }
 
     .deg1 {
-        @apply bg-gradient-to-t from-[#ffc83e] to-[#c037ff];
+        @apply bg-gradient-to-t from-[#f0b92f] to-[#c037ff];
+    }
+
+    .deg2 {
+        @apply bg-gradient-to-r from-[#f0b92f] to-[#c037ff];
+    }
+
+    .screen {
+        @apply w-full h-screen bg-trans fixed flex top-0 left-0 right-0 items-end justify-center p-15 z-50;
     }
 }

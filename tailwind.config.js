@@ -12,7 +12,7 @@ module.exports = {
       terciary: '#838383',
       azul: '#2697ff',
       rojo: '#ff6060',
-      trans: '#16161680',
+      trans: '#16161690',
       trans2: '#83838360',
     },
     screens: {

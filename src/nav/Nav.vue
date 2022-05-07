@@ -12,9 +12,7 @@ export default {
 	<nav
 		class="w-full py-10 px-25 fixed bottom-0 left-0 right-0 justify-center flex"
 	>
-		<div
-			class="backdrop-blur-xl bg-trans p-8 flex justify-between rounded-30 px-20 w-full"
-		>
+		<div class="bg-trans p-8 flex justify-between rounded-30 px-20 w-full">
 			<router-link to="'/" class="btn hover:bg-trans2">
 				<Homenav />
 			</router-link>
